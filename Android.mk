@@ -16,7 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-LOCAL_AAPT_FLAGS:=--auto-add-overlay
 
 ifeq ($(BOARD_VENDOR),oppo)
 ifeq ($(TARGET_BOARD_PLATFORM),msm8974)
